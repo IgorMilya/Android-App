@@ -22,14 +22,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonChangeColor = findViewById(R.id.changeColorButton);
-
-        buttonChangeColor.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Change the text color of the TextView when the button is clicked
-                textViewOppenheimer.setTextColor(getResources().getColor(R.color.black));
-            }
-        });
     }
 }
