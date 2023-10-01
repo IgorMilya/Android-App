@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         buttonChangeText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Change the text of the TextView when the button is clicked
                 textViewOppenheimer.setText("New Text is generated");
             }
         });
